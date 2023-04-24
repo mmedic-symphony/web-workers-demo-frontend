@@ -1,0 +1,19 @@
+.trackList {
+  display: flex;
+  flex-direction: column;
+}
+
+.trackTableHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trackTableHeader * {
+  width: 200px;
+}
+
+.trackTableItems {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.singleTrack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.singleTrack * {
+  width: 200px;
+}
+
+.trackName {
+  max-width: 200px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
